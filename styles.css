@@ -303,6 +303,18 @@ body {
   font-size: 1.2rem;
 }
 
+.form__icon {
+  position: absolute;
+  bottom: 1em;
+  left: -1.4em;
+  font-size: 1.2em;
+  opacity: .5;
+  color: transparent;
+  -webkit-text-stroke: 3px #fcfcfc;
+  /* Optional: add a stroke to the text */
+
+}
+
 .form__group {
   margin-bottom: 1.25em;
   position: relative;
