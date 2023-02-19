@@ -4,6 +4,8 @@ The Odin Signup Form project was built as part of my learning journey.
 
 This project showcases my proficiency in several programming languages and technologies, including HTML, which I used to create semantic login forms and ensure proper document structure. I also demonstrated my skill in CSS by utilizing it to style and design the layout and aesthetic appearance of the project. As someone who enjoys the process of styling and design, I spent a significant amount of time perfecting the look and feel of the project. Overall, this project is a testament to my knowledge and abilities in web development, and my commitment to continually improving and refining my skills.
 
+![Project Animation](assets/Animation.gif)
+
 In addition, it demonstrates my ability to:
 
 * Use third-party libraries such as Font Awesome and Meyer Reset to enhance the design
