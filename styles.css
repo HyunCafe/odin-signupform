@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 900;
   color: aliceblue;
   text-shadow: 2px 2px 4px rgba(117, 203, 253, 0.5);
@@ -252,7 +252,7 @@ body {
 .wallpaper {
   position: absolute;
   left: 0;
-  background-image: url("assets/bg6.webp");
+  background-image: url('assets/bg6.webp');
   background-size: cover;
   height: 100vh;
   width: 60%;
@@ -274,7 +274,7 @@ body {
 
 /* Logo  */
 .logo {
-  background-image: url("assets/png.png");
+  background-image: url('assets/png.png');
   background-size: contain;
   background-repeat: no-repeat;
   height: 8em;
@@ -308,11 +308,9 @@ body {
   bottom: 1em;
   left: -1.4em;
   font-size: 1.2em;
-  opacity: .5;
+  opacity: 0.5;
   color: transparent;
   -webkit-text-stroke: 3px #fcfcfc;
-  /* Optional: add a stroke to the text */
-
 }
 
 .form__group {
