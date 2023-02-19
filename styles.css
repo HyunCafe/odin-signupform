@@ -26,7 +26,8 @@ body {
 
 .site-main {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   padding: 1rem;
   flex: 1;
@@ -69,18 +70,29 @@ body {
 }
 
 .main-nav li a:hover {
-  color: #fff;
-  background-color: #4276e6;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
 }
 
-/* Form Style */
+/* Wall Paper Section */
+.wallpaper {
+    background-image: url("assets/bg2.jpeg");
+    width: 500px;
+    height: 700px;
+    margin-right: 5em;
+}
+
+/* Form Style / Login Form Section */
 .login-form {
   width: 100%;
   max-width: 500px;
   background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
   border-radius: 5px;
   padding: 1.25em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-left: 5em;
 }
 
 .form__group {
