@@ -11,8 +11,9 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
-  color: aliceblue;
-  text-shadow: 2px 2px 4px rgba(117, 203, 253, 0.5);
+  color: #fbfdff;
+  text-shadow: 2px 2px 5px rgb(21, 37, 78, 0.8);
+  letter-spacing: 2px;
 }
 
 /* Style links */
@@ -99,7 +100,7 @@ body {
 }
 
 .background span:nth-child(5) {
-  color: #ffffff;
+  color: #fff;
   top: 98%;
   left: 84%;
   animation-duration: 26s;
@@ -302,6 +303,7 @@ body {
   backdrop-filter: blur(2px);
   box-shadow: 5px 5px 8px #ffffff, -5px -5px 8px #ffffff;
   font-size: 1.2rem;
+  text-shadow: 2px 2px 5px rgb(21, 37, 78, 0.8);
 }
 
 .form__icon {
@@ -309,9 +311,8 @@ body {
   bottom: 1em;
   left: -1.4em;
   font-size: 1.2em;
-  opacity: 0.5;
-  color: transparent;
-  -webkit-text-stroke: 3px #fcfcfc;
+  opacity: 0.4;
+  -webkit-text-stroke: 3px rgb(21, 37, 78, 0.8);
 }
 
 .form__group {
@@ -355,14 +356,16 @@ body {
 .form__button {
   width: 30%;
   color: #fff;
-  padding: 0.625em;
+  padding: 0.2em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 0.2em;
+  margin-top: 0.1em;
   border-radius: 15px;
   background: transparent;
-  box-shadow: 5px 5px 8px #c0ccff, -5px -5px 8px #fff;
+  text-shadow: 2px 2px 5px rgb(21, 37, 78, 0.8);
+  font-size: 1.4rem;
+  box-shadow: 5px 5px 8px #8296ee, -5px -5px 8px #fff;
 }
 
 .form__button:hover {
