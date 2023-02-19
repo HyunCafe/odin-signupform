@@ -8,9 +8,7 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url("assets/dreambg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-color: #173061;
 }
 
 /* Style links */
@@ -25,7 +23,7 @@ body {
 .site-header {
   color: #fff;
   padding: 0.6rem;
-  background-color: rgba(0, 162, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
 }
 
@@ -82,23 +80,20 @@ body {
 
 /* Wall Paper Section */
 .wallpaper {
-  position: fixed;
-  top: 0;
+  position: absolute;
   left: 0;
-  width: 50%;
-  height: 100%;
-  z-index: -1;
   background-image: url("assets/bg2.jpg");
   background-size: cover;
-  opacity: 0.8;
+  height: 110vh;
+  width: 60%;
 }
 
 .strip-section {
   position: relative;
   top: 5em;
-  height: 18%;
-  background-color: rgb(255, 255, 255);
-  /* backdrop-filter: blur(10px); */
+  height: 20%;
+  width: 100%;
+  background-color: rgb(216, 243, 255, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,25 +109,25 @@ body {
   height: 8em;
   width: 8em;
   position: absolute;
-  top: 12%;
-  right: 25%;
+  bottom: 12%;
+  right: 50%;
   transform: translate(50%, -50%);
 }
 
 /* Form Style / Login Form Section */
 .login-form {
+  position: fixed;
+  top: 55%;
+  right: 20%;
+  transform: translate(50%, -50%);
   width: 100%;
   max-width: 500px;
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  border-radius: 5px;
+  height: 70%;
   padding: 1.25em;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 58%;
-  right: 25%;
-  transform: translate(50%, -50%);
+  background-color: rgba(255, 255, 255, 0.2);
+  background-size: cover;
+  border-radius: 5px;
+  backdrop-filter: blur(2px);
 }
 
 .form__group {
@@ -181,7 +176,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: .2em;
+  margin-top: 0.2em;
 }
 
 .form__button:hover {
@@ -189,7 +184,7 @@ body {
 }
 
 .log-in {
-    margin-top: .8em;
+  margin-top: 0.8em;
 }
 
 /* Footer */
