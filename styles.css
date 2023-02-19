@@ -16,12 +16,16 @@ body {
 
 .site-header,
 .site-footer {
+  position: relative;
   flex-shrink: 0;
+  z-index: 1;
 }
 
 .site-header {
   color: #fff;
-  padding: 1rem;
+  padding: 0.6rem;
+  background-color: rgba(0, 162, 255, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .site-main {
@@ -30,6 +34,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  position: relative;
   flex: 1;
 }
 
@@ -70,16 +75,21 @@ body {
 }
 
 .main-nav li a:hover {
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
 }
 
 /* Wall Paper Section */
 .wallpaper {
-    background-image: url("assets/bg2.jpeg");
-    width: 500px;
-    height: 700px;
-    margin-right: 5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("assets/bg2.jpg");
+  background-size: cover;
+  opacity: 0.6;
 }
 
 /* Form Style / Login Form Section */
