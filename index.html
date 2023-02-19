@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title</title>
-    <meta
-      name="description"
-      content="Description of the page for search engines"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Description of the page for search
+      engines">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
-
   <body>
     <div class="background">
       <span></span>
@@ -40,28 +37,21 @@
     </div>
 
     <main class="site-main">
-      <section class="wallpaper">
+      <div class="wallpaper">
         <div class="strip-section">
           <div class="logo"></div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quia
-          facilis illum, necessitatibus atque ipsa error earum repellendus unde,
-          distinctio est inventore, ullam minus voluptate eos blanditiis cum
-          deserunt odit.
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quia
+            facilis illum, necessitatibus atque ipsa error earum repellendus
+            unde, distinctio est inventore, ullam minus voluptate eos blanditiis
+            cum deserunt odit.</p>
         </div>
-      </section>
+      </div>
 
-      <section class="login-form">
-        <form id="my-form" class="form">
+      <div class="login-form">
+        <form id="my-form" class="form" novalidate>
           <div class="form__group">
             <label class="form__label" for="first-name">First Name</label>
-            <input
-              class="form__input"
-              type="text"
-              id="first-name"
-              name="first-name"
-              required
-              placeholder="Enter your first name"
-            />
+            <input class="form__input" type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
             <span class="form__icon">
               <i class="fas fa-user"></i>
             </span>
@@ -70,14 +60,7 @@
 
           <div class="form__group">
             <label class="form__label" for="last-name">Last Name</label>
-            <input
-              class="form__input"
-              type="text"
-              id="last-name"
-              name="last-name"
-              required
-              placeholder="Enter your last name"
-            />
+            <input class="form__input" type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
             <span class="form__icon">
               <i class="fas fa-user"></i>
             </span>
@@ -86,14 +69,7 @@
 
           <div class="form__group">
             <label class="form__label" for="email">Email Address</label>
-            <input
-              class="form__input"
-              type="email"
-              id="email"
-              name="email"
-              required
-              placeholder="Enter your email"
-            />
+            <input class="form__input" type="email" id="email" name="email" required placeholder="Enter your email">
             <span class="form__icon">
               <i class="fas fa-envelope"></i>
             </span>
@@ -102,30 +78,16 @@
 
           <div class="form__group">
             <label class="form__label" for="phone-number">Phone Number</label>
-            <input
-              class="form__input"
-              type="tel"
-              id="phone-number"
-              name="phone-number"
-              required
-              placeholder="Enter your phone number"
-            />
+            <input class="form__input" type="tel" id="phone-number" name="phone-number" required placeholder="Enter your phone number"/>
             <span class="form__icon">
               <i class="fas fa-phone"></i>
             </span>
             <span class="form__error"></span>
           </div>
-
+          
           <div class="form__group">
             <label class="form__label" for="password">Password</label>
-            <input
-              class="form__input"
-              type="password"
-              id="password"
-              name="password"
-              required
-              placeholder="Enter your password"
-            />
+            <input class="form__input" type="password" id="password" name="password" required placeholder="Enter your password"/>
             <span class="form__icon">
               <i class="fas fa-lock"></i>
             </span>
@@ -133,26 +95,21 @@
           </div>
 
           <div class="form__group">
-            <label class="form__label" for="confirm-password"
-              >Confirm Password</label
-            >
-            <input
-              class="form__input"
-              type="password"
-              id="confirm-password"
-              name="confirm-password"
-              required
-              placeholder="Re-enter your password"
-            />
+            <label class="form__label" for="confirm-password">Confirm Password</label>
+            <input class="form__input" type="password" id="confirm-password" name="confirm-password" required placeholder="Re-enter your password"/>
             <span class="form__icon">
               <i class="fas fa-lock"></i>
             </span>
             <span class="form__error"></span>
           </div>
+        
           <button class="form__button" type="submit">Create Account</button>
-          <p class="log-in">Already have an account? <a href=""> Login </a></p>
+          <p class="log-in">
+            Already have an account?
+            <a href="">Login</a>
+          </p>
         </form>
-      </section>
+      </div>
     </main>
 
     <footer class="site-footer">
