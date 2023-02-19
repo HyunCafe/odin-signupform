@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("assets/dreambg.jpg");
+  background-size: cover;
+}
+
+.site-header,
+.site-footer {
+  flex-shrink: 0;
+}
+
+.site-main {
+  flex-grow: 1;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0 1rem;
+}
+
+/* Style links */
+.main-nav a {
+  color: #333;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.main-nav a:hover {
+  background-color: #ddd;
+}
+
+.site-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.site-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Form Style */
+
+.login-form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form__group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form__input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form__icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.form__icon i {
+  color: #ccc;
+}
+
+.form__error {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+.form__button {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form__button:hover {
+  background-color: #444;
+}
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
