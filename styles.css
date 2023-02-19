@@ -12,21 +12,44 @@ body {
   background-size: cover;
 }
 
+/* Style links */
+
 .site-header,
 .site-footer {
   flex-shrink: 0;
 }
 
-.site-main {
-  flex-grow: 1;
+.site-header {
+  color: #fff;
+  padding: 1rem;
 }
 
+.site-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  flex: 1;
+}
+
+/* Navbar styles */
 .main-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #eee;
   padding: 1rem;
+}
+
+.main-nav a {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.main-nav a:hover {
+  background-color: #ddf8ff;
 }
 
 .main-nav ul {
@@ -40,62 +63,40 @@ body {
   margin: 0 1rem;
 }
 
-/* Style links */
-.main-nav a {
-  color: #333;
-  font-weight: bold;
-  padding: 0.5rem;
+.main-nav li a {
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
 }
 
-.main-nav a:hover {
-  background-color: #ddd;
-}
-
-.site-header {
-  background-color: #333;
+.main-nav li a:hover {
   color: #fff;
-  padding: 1rem;
-}
-
-.site-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-
-.site-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+  background-color: #4276e6;
 }
 
 /* Form Style */
-
 .login-form {
   width: 100%;
   max-width: 500px;
   background-color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  padding: 1.25em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .form__group {
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   position: relative;
 }
 
 .form__label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125em;
   font-weight: bold;
 }
 
 .form__input {
   width: 100%;
-  padding: 10px;
+  padding: 0.625em;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -104,7 +105,7 @@ body {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 10px;
+  right: 1em;
 }
 
 .form__icon i {
@@ -113,9 +114,9 @@ body {
 
 .form__error {
   position: absolute;
-  bottom: -20px;
+  bottom: -0.625em;
   left: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: red;
   display: none;
 }
@@ -124,11 +125,11 @@ body {
   width: 100%;
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 0.625em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 .form__button:hover {
@@ -136,10 +137,11 @@ body {
 }
 
 .site-footer {
-  background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 1rem;
   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .site-footer p {
