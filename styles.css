@@ -261,14 +261,14 @@ body {
 
 .strip-section {
   position: relative;
-  top: 20%;
-  height: 25%;
+  top: 10%;
+  height: 15%;
   width: 100%;
   background-color: rgb(216, 243, 255, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -279,10 +279,11 @@ body {
   background-repeat: no-repeat;
   height: 8em;
   width: 8em;
-  position: absolute;
-  top: 40%;
-  right: 50%;
+  position: fixed;
+  top: 10%;
+  right: 20%;
   transform: translate(50%, -50%);
+  z-index: 1;
 }
 
 /* Form Style / Login Form Section */
