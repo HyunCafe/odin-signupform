@@ -10,6 +10,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-image: url("assets/dreambg.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 /* Style links */
@@ -89,7 +90,33 @@ body {
   z-index: -1;
   background-image: url("assets/bg2.jpg");
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.8;
+}
+
+.strip-section {
+  position: relative;
+  top: 5em;
+  height: 18%;
+  background-color: rgb(255, 255, 255);
+  /* backdrop-filter: blur(10px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Logo  */
+.logo {
+  background-image: url("assets/png.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 8em;
+  width: 8em;
+  position: absolute;
+  top: 12%;
+  right: 25%;
+  transform: translate(50%, -50%);
 }
 
 /* Form Style / Login Form Section */
@@ -102,7 +129,10 @@ body {
   border-radius: 5px;
   padding: 1.25em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin-left: 5em;
+  position: absolute;
+  top: 58%;
+  right: 25%;
+  transform: translate(50%, -50%);
 }
 
 .form__group {
@@ -144,21 +174,30 @@ body {
 }
 
 .form__button {
-  width: 100%;
+  width: 30%;
   background-color: #333;
   color: #fff;
   padding: 0.625em;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 1.25em;
+  margin-top: .2em;
 }
 
 .form__button:hover {
   background-color: #444;
 }
 
+.log-in {
+    margin-top: .8em;
+}
+
+/* Footer */
+
 .site-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   color: #fff;
   padding: 1rem;
   text-align: center;
