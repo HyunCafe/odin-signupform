@@ -13,6 +13,7 @@ In addition, it demonstrates my ability to:
 * Debug and solve complex programming challenges
 * Manage project timelines and plan future implementations
 * Continually iterate and improve upon designs to achieve desired outcomes
+* Make responsive designs with breakpoints
 
 ## Project Timeline
 
@@ -30,10 +31,10 @@ In addition, it demonstrates my ability to:
 * Added icons and more finishing touches for aesthetics: Implemented icons and made other final changes to complete the form's aesthetics.
 * Validator: Ran the HTML and CSS through validators and made corrections to ensure they meet the appropriate standards.
 
+#### March 25, 2023
+* Feat: Made it responsive with breakpoints
 ## TO DO:
-- Make Website Responsive
 - Add Indicators when filling out fields (color coded)
-- Customize hover feature for create account
 - Have it work as a fully working Signup and have a login form with Popular Fast fills
 like Gmail, Facebook, Twitter
 
