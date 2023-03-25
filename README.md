@@ -1,4 +1,4 @@
-# odin-signupform
+# odin-signupform (9 weeks into my coding journey)
 All Odin Projects are made from scratch.
 The Odin Signup Form project was built as part of my learning journey.
 
