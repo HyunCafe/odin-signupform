@@ -6,7 +6,7 @@ This project showcases my proficiency in several programming languages and techn
 
 ![Project Animation](assets/Animation.gif)
 <p align="center">
-  <a href="https://hyuncafe.github.io/odin-signupform/">Live Link</a>
+<a href="https://hyuncafe.github.io/odin-signupform/" target="_blank">Live Link</a>
 </p>
 
 In addition, it demonstrates my ability to:
