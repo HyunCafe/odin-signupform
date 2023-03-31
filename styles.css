@@ -359,6 +359,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .form__button {
+    padding: .6em;
+    width: 100px;
+  }
 }
 
 @media screen and (max-width: 450px) {
